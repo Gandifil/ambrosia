@@ -43,6 +43,7 @@ namespace AmbrosiaGame
 
             InfoManager.Initialize(Content);
             GameLog.Initialize(Content);
+            LineRenderer.Initialize(GraphicsDevice);
         }
 
         protected override void LoadContent()

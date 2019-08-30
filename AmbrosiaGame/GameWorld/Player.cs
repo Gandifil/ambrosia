@@ -1,4 +1,5 @@
 ﻿using AmbrosiaGame.Resources;
+using AmbrosiaMechanics;
 
 namespace AmbrosiaGame.GameWorld
 {
@@ -7,7 +8,7 @@ namespace AmbrosiaGame.GameWorld
         public Player(int x, int y, PlayerInfo info)
             : base(x, y, info.Texture)
         {
-
+            Body = new PlayerBody();
         }
     }
 }
